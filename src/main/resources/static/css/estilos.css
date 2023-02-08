@@ -1,0 +1,238 @@
+/* Este es un archivo para CSS  */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    padding: 80px 20px 0 0;
+}
+
+.header {
+    background-color: #4B0082;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.aside {
+    background-color: #20B2AA;
+    position: fixed;
+    top: 80px;
+    right: 0;
+    bottom: 20px;
+    width: 20%;
+}
+.aside1 {
+    background-color: #008B8B;
+    position: fixed;
+    top: 80px;
+    left: 1%;
+    bottom: 20px;
+    width: 33%;
+    overflow: scroll;
+}
+.aside2 {
+    background-color: #008B8B;
+    position: fixed;
+    top: 80px;
+    left: 36%;
+    bottom: 20px;
+    width: 30%;
+    overflow: scroll;
+}
+.aside3 {
+    background-color: #008B8B;
+    position: fixed;
+    top: 80px;
+    left: 69%;
+    bottom: 20px;
+    width: 30%;
+    overflow: scroll;
+}
+
+
+.contenido {
+    background-color: whitesmoke;
+    position: fixed;
+    top: 82px;
+    left: 10%;
+    right: 5%;
+    bottom: 20px;
+    overflow: scroll;
+}
+.contenido1 {
+    background-color: whitesmoke;
+    position: fixed;
+    top: 82px;
+    left: 5%;
+    right: 21%;
+    bottom: 20px;
+    overflow: scroll;
+}
+
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+p {
+    color: green;
+}
+
+article p {
+    color: blue;
+}
+
+#noticia {
+    color: brown;
+}
+
+.titulo {
+    text-align: center;
+     left: 0;
+    color: #4B0082;   
+}
+.contenidoC {
+    text-align: center;
+     left: 0; 
+}
+
+.textoCentrado {
+    text-align: center;
+}
+
+.textoDerecha {
+    text-align: right
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #E6E6FA
+}
+
+
+
+/* Comienza la definición del menú */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+   margin: 0 auto;
+}
+
+.nav-link {
+    
+    color:#E6E6FA;
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    line-height: 80px;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 4.5px;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.nav-menu-link:hover {
+    background-color: #024070;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.logo {
+   font-size: 30px;
+   font-weight: bold;
+   padding: 0 40px;
+   line-height: 80px;
+}
+.sub{
+    color: #7FFF00;
+    text-decoration: none; 
+    font-size:18px;
+     margin: 0 16px;
+    
+}
+.subi{
+    color: #00FA9A;
+    text-decoration: none; 
+    font-size:18px;
+     margin: 0 16px;
+    
+}
+.sub1{
+    color: whitesmoke;
+    text-decoration: none; 
+    font-size:20px;
+     margin: 0 16px;
+
+}
+
+.f1{
+    color:white;
+    font-size:12px;
+     margin: 0 16px;
+}
+
+.espaciow{
+   color:whitesmoke ; 
+   font-size:10px;
+}
+
+.espacios{
+   color:#20B2AA; 
+
+   font-size:10px;
+}
+
+.espacio1{
+   color:#008B8B; 
+
+   font-size:10px;
+}
+
+.espacio2{
+   color:#20B2AA; 
+
+   font-size:10px;
+}
+
+.espacio3{
+   color:#20B2AA; 
+
+   font-size:10px;
+}
+
+.t2{
+    color:#008B8B
+}
+
+.en{
+     background-color: #024070;
+}
+.nota{
+    color: whitesmoke;
+    font-size:10px;    
+  margin: 0 16px;
+}

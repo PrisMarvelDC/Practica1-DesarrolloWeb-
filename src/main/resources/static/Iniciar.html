@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- Esto es un comentario...  -->
+<html lang="es">
+    <head>
+        <title>Suplidora de Cocina San Jose SupliCoc</title>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Pagina de la suplidora de cocina San Jose" />        
+        <meta name="keywords" content="Cocina, Suplidora, repostera, hornos"/>
+       <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+      <header class="header">
+            <nav class="nav">
+                <a class="logo nav-link" href="principal.html">SupliCoc</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="Iniciar.html">Iniciar_Sección</a></li>
+                   <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="catalogo.html">Catalogo</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="tips.html">Tips</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="recetas.html">Recetas</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="locaciones.html">Ubicanos</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="personal.html">Nuestro_personal</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="contactos.html">Contactos</a></li>
+                    
+                </ul>
+            </nav>
+          <hr>
+       
+        </header>
+      
+           <hr/>
+           <section class="contenido1">
+            <article>
+                <h2 class="espaciow">_ </h2>
+                <h3  style="color: lightseagreen ">Registro de clientes</h3>
+                <h2 class="espaciow">_ </h2>
+                <h2 class="espaciow">_ </h2>
+                <form action="/cliente/insertar" method="post">
+                    <input type="hidden" name="id" value="5" />
+                    
+                    <fieldset>
+                        <label>Nombre</label> 
+                        <input type="text" name="nombre de usuario" value="" size="40" />
+                    </fieldset>
+                    <fieldset>
+                        <label>Contraseña</label> 
+                        <input type="password" name="constraseña" value="" size="10" />
+                    </fieldset>
+                    <fieldset>
+                        <label>Confirmar contraseña</label> 
+                        <input type="password" name="constraseña" value="" size="10" />
+                    </fieldset>
+                   
+                    <fieldset>
+                        <label>Año de nacimiento</label> 
+                        <input type="number" 
+                               name="Año" 
+                               min="1900"
+                               max="2023"
+                               value=""/>
+                    </fieldset>
+                    <fieldset>
+                        <label>Correo electronico</label> 
+                        <input type="text" 
+                               name="correo" 
+                               value=""
+                               size="30"/>
+                    </fieldset>
+                    <input type="submit" value="Enviar"/>
+                </form>
+            </article>
+           
+      </section>
+    
+
+        <footer class="footer">
+            
+            Suplidora de Cocina San Jose SupliCoc 2023 &COPY;
+        </footer>
+      
+      
+      
+      
+  </body>
+    
+    
+    
+</html>
+    
+    
+    
+    
+
+  
