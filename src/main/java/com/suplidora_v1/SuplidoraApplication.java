@@ -1,4 +1,4 @@
-package com.tienda_v1;
+package com.suplidora_v1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
